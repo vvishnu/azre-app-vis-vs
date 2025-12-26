@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azre_app_vis_vs</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/8b557226-03f4-4399-8e2e-ee06d03d27e4/resourceGroups/az-rg-vvis/providers/microsoft.insights/components/az-tuto-vvis</ApplicationInsightsResourceId>
+    <UserSecretsId>ab4dfb42-3a82-4c64-81ce-47b8e1506e61</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.17.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
 
 </Project>
